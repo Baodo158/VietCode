@@ -13,8 +13,8 @@ A programming language based on Vietanmese keywords and expression.
 
 ## Overview of Keywords
 
-- nhận  | assign
-- in  | print 
+- `nhận`  | assign
+- `in`  | print 
 - nếu  | if
 - vậy  | else
 - kết thúc nếu  | end if 
