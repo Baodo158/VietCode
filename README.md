@@ -13,7 +13,7 @@ A programming language based on Vietanmese keywords and expression.
 
 ## Overview of Keywords
 
-- nhận   assign 
+- nhận |assign| 
 - in                         assign 
 - nếu                        | assign |
 - vậy
