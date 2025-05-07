@@ -1,0 +1,22 @@
+i nhận 1
+lặp từ i đến 100:
+    chia3 nhận i % 3
+    chia5 nhận i % 5
+    nếu chia3 bằng 0:
+        nếu chia5 bằng 0:
+            in "FizzBuzz"
+        kết thúc nếu
+        nếu chia5 khác 0:
+            in "Fizz"
+        kết thúc nếu
+    kết thúc nếu
+    nếu chia3 khác 0:
+        nếu chia5 bằng 0:
+            in "Buzz"
+        kết thúc nếu
+        nếu chia5 khác 0:
+            in i
+        kết thúc nếu
+    kết thúc nếu
+kết thúc lặp
+
