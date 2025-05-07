@@ -1,0 +1,6 @@
+x nhận 15 
+nếu x lớn hơn 10: 
+in "x lớn hơn 10" 
+vậy 
+in "x không lớn hơn 10" 
+kết thúc nếu
