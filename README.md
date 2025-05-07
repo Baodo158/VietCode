@@ -1,6 +1,6 @@
 # VietCode
 
-A programming language based on Vietanmese keywords and expression.
+A programming language based on Vietnamese keywords and expression.
 
 ---
 
