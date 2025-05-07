@@ -1,8 +1,115 @@
 <!DOCTYPE html>
-<html>
-    <body>
-        <h1>
-            VietCode
-        </h1>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VietCode</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f9fafb;
+            color: #111827;
+        }
+
+        h1 {
+            color: #d97706;
+        }
+
+        p {
+            max-width: 700px;
+        }
+
+        pre {
+            background-color: #f3f4f6;
+            padding: 15px;
+            border-left: 4px solid #d97706;
+            border-radius: 8px;
+            overflow-x: auto;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 18px;
+            background-color: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background-color: #1d4ed8;
+        }
+
+        ul {
+            max-width: 700px;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>VietCode</h1>
+    <p><strong>VietCode</strong> is a Vietnamese-themed programming language designed for beginners. It uses simple, readable Vietnamese syntax to help new coders understand basic programming concepts easily.</p>
+
+    <h2>Supports</h2>
+    <ul>
+        <li><strong>Variable assignment:</strong> nhận (assign)</li>
+        <li><strong>Output:</strong> in (print)</li>
+        <li><strong>Conditionals:</strong> nếu (if), vậy (else), kết thúc nếu (end if)</li>
+        <li><strong>Loops:</strong> lặp từ (loop from), đến (to), trong khi (while)</li>
+    </ul>
+
+    <h2>Example Code</h2>
+    <p><strong>FizzBuzz Program:</strong></p>
+    <pre>
+    i nhận 1
+    lặp từ i đến 15:
+        chia3 nhận i % 3
+        chia5 nhận i % 5
+        nếu chia3 bằng 0:
+            nếu chia5 bằng 0:
+                in "FizzBuzz"
+            kết thúc nếu
+            nếu chia5 khác 0:
+                in "Fizz"
+            kết thúc nếu
+        kết thúc nếu
+        nếu chia3 khác 0:
+            nếu chia5 bằng 0:
+                in "Buzz"
+            kết thúc nếu
+            nếu chia5 khác 0:
+                in i
+            kết thúc nếu
+        kết thúc nếu
+    kết thúc lặp
+    </pre>
+
+    <h2>Output</h2>
+    <pre>
+    1
+    2
+    Fizz
+    4
+    Buzz
+    Fizz
+    7
+    8
+    Fizz
+    Buzz
+    11
+    Fizz
+    13
+    14
+    FizzBuzz
+    16
+    17
+    Fizz
+    19
+    Buzz
+    </pre>
+
+    <a class="button" href="https://github.com/Baodo158/VietCode" target="_blank">Download from GitHub</a>
+</body>
 </html>
