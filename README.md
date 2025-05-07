@@ -13,9 +13,9 @@ A programming language based on Vietanmese keywords and expression.
 
 ## Overview of Keywords
 
-- nhận
+- nhận                       | assign |
 - in
-- nếu
+- nếu                        | assign |
 - vậy
 - kết thúc nếu
 - lặp từ
