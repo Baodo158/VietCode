@@ -1,0 +1,58 @@
+Program:
+    statements+=Statement*
+;
+
+Statement:
+    Assignment | Print | IfStmt | Loop | WhileLoop | MathExpr | Comment
+;
+
+Assignment:
+    var=ID 'nhận' value=Expr
+;
+
+Print:
+    'in' (msg=STRING | var=ID)
+;
+
+IfStmt:
+    'nếu' condition=Expr ':'
+    thenBlock+=Statement*
+    ('vậy' elseBlock+=Statement*)?
+    'kết thúc nếu'
+;
+
+Loop:
+    'lặp từ' var=ID 'đến' end=INT ':'
+    body+=Statement*
+    'kết thúc lặp'
+;
+
+WhileLoop:
+    'trong khi' condition=Expr ':'
+    body+=Statement*
+    'kết thúc trong khi'
+;
+
+MathExpr:
+    left=Term op=Operator right=Term
+;
+
+Expr:
+    left=Term (op=Operator right=Term)?
+;
+
+Term:
+    ID | INT | FLOAT | STRING
+;
+
+Operator:
+    'cộng' | 'trừ' | 'nhân' | 'chia' | '%' | 'lớn hơn' | 'bé hơn' | 'bằng' | 'khác'
+;
+
+Comment:
+    /\/\/.*$/
+;
+
+STRING:
+    '"' /[^"]*/ '"'
+;
