@@ -5,9 +5,10 @@ A programming language based on Vietanmese keywords and expression.
 ---
 
 ## Features
--
--
--
+
+- Simple Vietnamese based syntax
+- Easy to learn for beginners
+- Supports variables, math, conditinals and loops
 
 ---
 
