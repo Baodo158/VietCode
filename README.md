@@ -27,7 +27,7 @@ A programming language based on Vietanmese keywords and expression.
 - trừ  | subtract | -
 - nhân  | multiply | *
 - chia  | divide | /
-- %  | modulus | %
+- %  | modulus 
 - lớn hơn  | greater than | >
 - bé hơn  | less than | <
 - bằng  | equal to | =
