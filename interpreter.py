@@ -1,10 +1,13 @@
 from textx import metamodel_from_file
 import sys
 
+#Load grammar file
 viet_mm = metamodel_from_file('VietCode.tx')
 
+#Stored variable
 s = {}
 
+#Evauluate expressions
 def eval_expr(expr):
     if type(expr) in [str, int, float]:
         return eval_term(expr)
@@ -37,6 +40,7 @@ def eval_expr(expr):
     else:
         return eval_term(expr.left)
 
+#Get value of variables,number or string
 def eval_term(term):
     if isinstance(term, str):
         if term.startswith('"') and term.endswith('"'):
@@ -47,6 +51,7 @@ def eval_term(term):
             return term  
     return term
 
+#Run single statement
 def execute_code(stmt):
     stmt_type = stmt.__class__.__name__
 
@@ -97,10 +102,12 @@ def execute_code(stmt):
     else:
         raise Exception(f"[Lỗi]: Lệnh không hợp lệ: {stmt_type}")
 
+#Run the whole program
 def run_program(model):
     for stmt in model.statements:
         execute_code(stmt)
 
+#Start point when running the file
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("Cách dùng: python interpreter.py <file.viet>")
