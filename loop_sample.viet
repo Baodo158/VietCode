@@ -1,5 +1,5 @@
-tổng nhận 0 
-lặp từ i đến 5: 
-tổng nhận tổng cộng i
+tổng nhận 0 # tong = 0
+lặp từ i đến 5: # for i in range(0,6):
+tổng nhận tổng cộng i # tong = tong + i
 kết thúc lặp
-in tổng
+in tổng # print(tong)
