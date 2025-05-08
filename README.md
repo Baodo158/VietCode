@@ -14,8 +14,8 @@ A programming language based on Vietnamese keywords and expression.
 
 ## Overview of Keywords
 
-- `nhận`  | assign |                                - hello
-- `in`  | print |                                   - hello 
+- `nhận`  | assign |                                
+- `in`  | print |                                   
 - `nếu`  | if |
 - `vậy`  | else |
 - `kết thúc nếu`  | end if |
